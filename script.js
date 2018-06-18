@@ -9,8 +9,8 @@
       worldTransportation = L.esri.basemapLayer('ImageryTransportation');      
 
     var mapLayers = L.esri.featureLayer({
-      url: 'https://admin205.ispa.fsu.edu/arcgis/rest/services/LABINS/LABINS_2017_Pts_No_SWFMWD/MapServer/0',
-      minZoom: 13
+      url: 'https://admin205.ispa.fsu.edu/arcgis/rest/services/PLI/PLI_2017/MapServer/0',
+      minZoom: 11
     }).addTo(map);
     function setBasemap(basemap) {
       if (layer) {
